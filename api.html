@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+    <script
+      src="https://kit.fontawesome.com/b64b59d2ee.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class = "background-image">
+        <nav>
+                <img class = "nasa__logo" src="./assets/nasalogo-jpeg.png">
+                <ul>
+                    <li class = "nav__links">
+                        <ul class = "nav__link">Missions</ul>
+                        <ul class = "nav__link">Gallery</ul>
+                        <ul class = "nav__link">Follow Nasa</ul>
+                        <ul class = "nav__link">About</ul>
+                    </li>
+                </ul>
+        </nav>
+    <header class = "header">
+        <div class = "header__content">
+        <h2>Welcome Home, Earthling</h2>
+        <form>
+            <input id = "search__term" type="text" placeholder="Search...">
+            <button id = "btn">
+                <i class = "fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <div class="post-list">
+            <div class="post">
+              <div class="nasa__img">
+                Post Title
+              </div>
+              <p class="nasa__para">
+                Post Body
+              </p>
+            </div>
+          </div>
+        </div>
+    </header>
+        
+    </div>
+</body> 
+<footer>
+    <div class = "row footer__row">
+        <a href="#" class = "footer__anchor">
+            <figure class = "footer__logo">
+                <img src="assets-mike/mslogo.png" class = "footer__logo--img" alt="">
+            </figure>
+            <span class = "footer__logo--popper">
+                Top
+                <i class="fas fa-arrow-up"></i>
+            </span>
+        </a>
+        <div class = "footer__social--list">
+            <a href="https://github.com/MichaelShleny" target = "_blank" class ="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white">GitHub</a>
+            <a href="https://www.linkedin.com/in/michael-shlenskiy-b82049186/" target = "_blank" class ="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white">LinkedIn</a>
+            <a href="#" onclick="toggleModal()" class ="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white">Contact</a>
+            <a href="assets/Example Resume.pdf" target = "_blank" class ="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white" download>Resume</a>
+        </div>
+      <div class = "footer__copyright">Copyright © 2022 Michael Shlenskiy</div>
+    </div>
+</footer>
+<script src="api.js"></script>
+</html>
