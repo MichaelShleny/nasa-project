@@ -131,7 +131,7 @@ function useApiData2(nasaData2){
          <p class="rover__para">
            ${nasaData2.photos[0].earth_date}
          </p>`
-}x
+}
 
 
 
