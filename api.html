@@ -27,58 +27,76 @@
     <header class = "header">
         <div class = "header__content">
         <h2>Welcome Home, Earthling</h2>
-        <form>
-            <input id = "search__term" type="text" placeholder="Search...">
-            <button id = "btn">
-                <i class = "fa-solid fa-magnifying-glass"></i>
-            </button>
-        </form>
-        <div class="post-list">
-            <div class="post">
-              <div class="nasa__img">
-                Post Title
-              </div>
-              <p class="nasa__para">
-                Post Body
-              </p>
+        <div class = "btn__div">
+        <button id = "btn">
+            <div class = "button__div">Astronomy Picture of the Day&nbsp;
+            <i class = "fa-solid fa-magnifying-glass"></i>
             </div>
-          </div>
+        </button>
         </div>
-    </header>
-        
+        <div class="post"></div>
+        <div class = "line"></div>
+        <button id = "btn2">
+            <div class = "button__div">Mars Rover Photos&nbsp;
+            <i class = "fa-solid fa-magnifying-glass"></i>
+            </div>
+        </button>
+        <div class="post2"></div>
     </div>
-</body> 
-<footer>
-    <div class = "row footer__row">
-        <a href="#" class = "footer__anchor">
-            <figure class = "footer__logo">
-                <img src="assets-mike/mslogo.png" class = "footer__logo--img" alt="">
-            </figure>
-            <span class = "footer__logo--popper">
-                Top
-                <i class="fas fa-arrow-up"></i>
-            </span>
-        </a>
-        <div class = "footer__social--list">
-            <a href="https://github.com/MichaelShleny" target = "_blank" class ="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white">GitHub</a>
-            <a href="https://www.linkedin.com/in/michael-shlenskiy-b82049186/" target = "_blank" class ="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white">LinkedIn</a>
-            <a href="#" onclick="toggleModal()" class ="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white">Contact</a>
-            <a href="assets/Example Resume.pdf" target = "_blank" class ="
-            footer__social--link
-            link__hover-effect
-            link__hover-effect--white" download>Resume</a>
+    <div class = "cool__storys">   
+        <a class = "div__click" href="https://www.nasa.gov/feature/goddard/2016/nasa-scientists-see-asteroid-through-the-eyes-of-a-robot" target = "_blank">
+        <div class = "story story__big1">
+            <h3 class = "heading heading__asteroid">
+                NASA Scientists see Asteroid through robotic eyes</h3>
         </div>
-      <div class = "footer__copyright">Copyright © 2022 Michael Shlenskiy</div>
+        </a>
+        <div class = "story__containers">
+          <div class = "story__container1">
+            <a class = "div__click" href="https://www.nasa.gov/press-release/nasa-reveals-webb-telescope-s-first-images-of-unseen-universe" target = "_blank">
+            <div class = "story story__small1">
+                <h3 class = "heading">Webb Telescope's First Images of Unseen Universe</h3>
+            </div>
+            </a>
+            <a class = "div__click" href="https://www.nasa.gov/press-release/nasa-spacex-launch-climate-science-research-more-to-space-station" target="_blank">
+            <div class = "story story__small2">
+                <h3 class = "heading heading__small2">NASA, SpaceX Launch Climate Science Research to Space Station</h3>
+            </div>
+            </a>
+          </div>
+          <a class = "div__click" href="https://www.nasa.gov/press-release/decade-of-excellence-nasa-named-best-place-to-work-10th-year-in-a-row"target = "_blank">
+            <div class = "story story__bottom">
+                <h3 class = "heading">Decade of Exellence</h3>
+                <p>NASA Named Best Place to Work 10th Year in a Row</p>
+            </div>  
+        </a>
+        </div>
+        <a class = "div__click" href="https://www.nasa.gov/feature/jpl/nasa-s-new-mineral-dust-detector-readies-for-launch"target = "_blank">
+        <div class = "story story__big2">
+            <h3 class = "heading heading__asteroid">NASA's new mineral Dust Detector</h3>
+        </div>
+        </a>
+    </div>
+    
+    </div>
+
+    </div>
+    </header>
+</body> 
+
+<footer>
+    <div class = "footer">
+        <img class = "footer__nasa__logo" src="./assets/nasalogo-jpeg.png">
+                <ul>
+                    <li class = "footer__links">
+                        <ul class = "footer__link">No Fear Act</ul>
+                        <ul class = "footer__link">FOIA</ul>
+                        <ul class = "footer__link">Follow Nasa</ul>
+                        <ul class = "footer__link">Agency Financial Reports</ul>
+                        <ul class = "footer__link">Contact NASA</ul>
+                    </li>
+                </ul>
     </div>
 </footer>
+
 <script src="api.js"></script>
 </html>
