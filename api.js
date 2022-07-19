@@ -96,7 +96,7 @@ searchButton2.addEventListener("click", ()=>{
 
         //cant map through an array, so ill use a for in loop instead
         //formData.innerHTML = nasaData.map(data => useApiData(data)).join('');
-        
+        //
         /*the for in loop is to go through every key, instead of the keys we want
         for (const i in nasaData) {
           useApiData(nasaData[i])
