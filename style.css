@@ -7,7 +7,7 @@
 }
 
 .background-image{
-    /*background-image: url('/assets/nasafuture.gif');*/
+    /**background-image: url('/assets/nasafuture.gif');*/
     background-image: url('./assets/nasaphoto3.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
